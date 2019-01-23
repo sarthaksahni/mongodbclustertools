@@ -22,22 +22,19 @@ Lists All Shards in Cluster
 Lists available collection in ```<db>```
 
     ./mongodbclustertool.py listdbs <db>
-or
-
+    or
     ./mongodbclustertool.py listdbs --db <db>
 
 Lists chunks marked as ```jumbo``` for ```<collection>``` in ```<db>```
 
     ./mongodbclustertool.py listdbs <db> <collection>
-or
-
+    or
     ./mongodbclustertool.py listdbs --db <db> --coll <collection>
 
 List ```chunk``` distribution across shards for a ```<collection>``` in ```<db>```
 
     ./mongodbclustertool.py chunkdist <db> <collection>
-or
-
+    or
     ./mongodbclustertool.py chunkdist --db <db> --coll <collection>
 
 
