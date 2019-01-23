@@ -1,0 +1,6 @@
+[PROCESS]
+log_level=DEBUG
+
+
+[COMPDB]
+MONGO_CONNECT_URI=mongodb://username:password@yourmongos.com:27017
