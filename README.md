@@ -42,12 +42,12 @@ or
 
 
 Todos:
-[ ] Find empty chunks across cluster for a collection
-[ ] Find possible mergeable adjacent empty chunks in a cluster
-[ ] Propose a possible merge chunk fix for better blancing
-[ ] Find size on disk for each shard
-[ ] Fetch last balancing errors
-[ ] Quick MongoDB to CSV export with progressbar2
+- [ ] Find empty chunks across cluster for a collection
+- [ ] Find possible mergeable adjacent empty chunks in a cluster
+- [ ] Propose a possible merge chunk fix for better blancing
+- [ ] Find size on disk for each shard
+- [ ] Fetch last balancing errors
+- [ ] Quick MongoDB to CSV export with progressbar2
 
 ## How to contribute
 I am always open to suggestions and fixes. You can create a PR if you wish to contribute code or you can also add a ToDo in the readme for suggesting any addition.
