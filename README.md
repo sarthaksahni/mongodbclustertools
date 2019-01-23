@@ -3,14 +3,14 @@ A short python3 script for getting quick view of your MongoDB cluster!
 
 I created this script while I was struggling with an imbalanced cluster. There are a lot of ways to get your cluster wrong, but there are few to make it right! This script is an initiative to get more understanding of cluster than just ```db.database.collection.getShardDistribution()```. If you don't know what that command is, you should probably look for it at MongoDB docs.
 
-Installation:
+## Installation
 - Simply copy the script or ```git pull``` this repo.
 - Install dependencies by ```pip install -r requirements.txt```
 - Make ```./mongodbclustertool.py``` executable by ```chmod +x mongodbclustertool.py```
 - Create config file at the directory ```config.ini``` with contents from ```config.ini.sample``` provided
 - Add your mongos admin credentials to the config file.
 
-Usage:
+## Usage
 
 Lists available databases
 
