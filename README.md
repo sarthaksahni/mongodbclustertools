@@ -41,7 +41,7 @@ or
     ./mongodbclustertool.py chunkdist --db <db> --coll <collection>
 
 
-Todos:
+## Todos
 - [ ] Find empty chunks across cluster for a collection
 - [ ] Find possible mergeable adjacent empty chunks in a cluster
 - [ ] Propose a possible merge chunk fix for better blancing
