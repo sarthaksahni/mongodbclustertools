@@ -37,6 +37,12 @@ List ```chunk``` distribution across shards for a ```<collection>``` in ```<db>`
     or
     ./mongodbclustertool.py chunkdist --db <db> --coll <collection>
 
+Exporting large dataset using python multi processing, you can increase or decrease multi processes using ```procs```, your query should look like a python dict.
+
+    ./mongodbclustertool.py exportlarge <db> <collection> <query> <procs>
+    or
+    ./mongodbclustertool.py exportlarge --db <db> --coll <collection> --query <query> --procs <procs>
+
 
 ## Todos
 - [ ] Find empty chunks across cluster for a collection
@@ -44,7 +50,7 @@ List ```chunk``` distribution across shards for a ```<collection>``` in ```<db>`
 - [ ] Propose a possible merge chunk fix for better blancing
 - [ ] Find size on disk for each shard
 - [ ] Fetch last balancing errors
-- [ ] Quick MongoDB to CSV export with progressbar2
+- [x] Quick MongoDB to CSV export with progressbar2
 
 ## How to contribute
 I am always open to suggestions and fixes. You can create a PR if you wish to contribute code or you can also add a ToDo in the readme for suggesting any addition.
